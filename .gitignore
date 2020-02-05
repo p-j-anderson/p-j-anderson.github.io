@@ -7,4 +7,4 @@ _site
 *.gem
 
 # Removing production config
-_config.yml
+# _config.yml
