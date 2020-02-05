@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet">
+  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+<!--   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+  {% feed_meta %}
+  {% seo %}
+
+  <!-- Production only -->
+  {% if jekyll.environment == 'production' %}
+    {% include google-analytics.html %}
+  {% endif %}
+</head>
