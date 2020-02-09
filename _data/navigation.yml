@@ -3,7 +3,7 @@
 - name: About
   link: /about
 - name: Posts
-  link: /blog
+  link: /posts
 - name: Projects
   link: /projects
 - name: Songs
