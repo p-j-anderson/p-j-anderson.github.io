@@ -1,7 +1,10 @@
 baseurl: ""
 repository: p-j-anderson/p-j-anderson.github.io
 
-# collections:
+collections:
+  - songs
+  - videos
+  - project
 
 defaults:
   - scope:
