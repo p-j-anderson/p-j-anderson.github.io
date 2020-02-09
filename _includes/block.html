@@ -9,7 +9,8 @@
     {% else %}
       <a href="{{ include.link | relative_url }}" class="stretched-link link-style"></a>
     {% endif %} 
-    <div class="bg-light box-shadow mx-auto overflow-hidden" style="width: 80%; height: 200px; border-radius: 21px 21px 0 0;">
+    <!-- <div class="bg-light box-shadow mx-auto overflow-hidden" style="width: 80%; height: 200px; border-radius: 21px 21px 0 0;"> -->
+    <div class="bg-light box-shadow mx-auto overflow-hidden" style="width: 80%; height: 200px;">
       <img src="/assets/images/{{ include.image | default: 'error.jpg' }}" class="img-fluid">
     </div>
   </div>
