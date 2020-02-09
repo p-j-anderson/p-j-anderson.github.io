@@ -14,6 +14,6 @@ Followed [step-by-step guide](https://jekyllrb.com/docs/step-by-step/).
 #### More Reading
 [Front Matter Defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
 
-Github examples:
-https://github.com/andrewbanchich/forty-jekyll-theme
-https://github.com/jekyll/minima
+Resources:
+Images - [Unsplash](https://unsplash.com)
+Favicon - [Fonticon](https://gauger.io/fonticon/)
