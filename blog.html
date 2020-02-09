@@ -1,6 +1,16 @@
 ---
-title: Blog
+title: Posts
 ---
-{% for post in site.posts %}
-  {% include container.html item=post %}
-{% endfor %}
+<div class="row pl-md-3">
+  {% for post in site.posts %}
+    {% include block.html
+      title=post.title
+      subtitle=post.subtitle
+      color="light"
+      text="dark"
+      link=post.link
+      accent="secondary-accent"
+      image=post.image
+    %}
+  {% endfor %}
+</div>

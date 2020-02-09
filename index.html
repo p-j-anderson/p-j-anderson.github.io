@@ -3,43 +3,19 @@ title: Home
 layout: base
 ---
 <!-- Main Focus -->
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-  <div class="col-md-5 p-lg-5 mx-auto my-5">
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" id="main-focus">
+  <div class="col-md-5 p-lg-5 mx-auto my-5 text-light">
     <h1 class="display-4 font-weight-normal">Paul Anderson</h1>
     <p class="lead font-weight-normal">Solutions engineer, music enthusiast, dog dad.</p>
-    <a class="btn btn-outline-primary" href="{{ '/about.html' | relative_url }}">More information</a>
+    <a class="btn btn-outline-highlight" href="{{ '/about.html' | relative_url }}">More information</a>
   </div>
-<!--   <div class="product-device box-shadow d-none d-md-block"></div>
-  <div class="product-device product-device-2 box-shadow d-none d-md-block"></div> -->
 </div>
 
-<!-- Secondary Focus -->
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  {% include block.html type="Project" sub="Learning keeps you on your toes." color="primary" %}
-  {% include block.html type="Video" sub="Keeping the creative chops sharp." color="secondary" text="dark" %}
-</div>
-
-<!-- Third Focus -->
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  {% include block.html type="Song" sub="My inner wanna-be composer." color="warning" text="dark" %}
-  {% include block.html type="Post" sub="Fingers need workouts too." color="dark" %}
-</div>
-
-<!-- Focus Example
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+<div class="container-fluid">
+  <div class="row pl-md-3 d-flex">
+    {% include block.html title="Featured Project" subtitle="Learning keeps you on your toes." color="warning" %}
+    {% include block.html title="Featured Video" subtitle="Keeping the creative chops sharp." color="secondary" %}
+    {% include block.html title="Featured Song" subtitle="My inner wanna-be composer." color="primary" %}
+    {% include block.html title="Featured Post" subtitle="Fingers need workouts too." color="dark" %}
   </div>
-
-  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-warning box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-</div> -->
+</div>

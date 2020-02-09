@@ -1,7 +1,16 @@
-<div class="bg-{{ include.color | default: 'dark' }} mr-md-3 pt-3 px-3 pt-md-4 px-md-4 my-3 my-md-0 text-center text-{{ include.text | default: 'white' }} overflow-hidden">
-  <div class="my-3 py-3">
-    <h2 class="display-5">Featured {{ include.type }}</h2>
-    <p class="lead">{{ include.sub }}</p>
+<div class="col-md-6 p-0 m-0 d-flex">
+  <div class="card bg-{{ include.color | default: 'dark' }} mr-md-3 mb-md-3 pt-5 border-0 rounded-0 flex-wrap w-100">
+    <div class="card-body text-center text-{{ include.text | default: 'light' }} {{include.accent | default: '' }}">
+      <h2 class="display-5">{{ include.title }}</h2>
+      <p class="lead">{{ include.subtitle }}</p>
+    </div>
+    {% if include.link contains "http://" or include.link contains "https://" %}
+      <a href="{{ include.link }}" class="stretched-link"></a>
+    {% else %}
+      <a href="{{ include.link | relative_url }}" class="stretched-link link-style"></a>
+    {% endif %} 
+    <div class="bg-light box-shadow mx-auto overflow-hidden" style="width: 80%; height: 200px; border-radius: 21px 21px 0 0;">
+      <img src="/assets/images/{{ include.image | default: 'error.jpg' }}" class="img-fluid">
+    </div>
   </div>
-  <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 200px; border-radius: 21px 21px 0 0;"></div>
 </div>
