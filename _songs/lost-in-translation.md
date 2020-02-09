@@ -1,6 +1,5 @@
 ---
 title: Lost in Translation
 subtitle: Piano & Synthesizer
-link: https://youtu.be/IOAL-HypvLw
-image:
+link: https://www.youtube.com/embed/IOAL-HypvLw
 ---

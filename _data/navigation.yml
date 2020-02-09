@@ -1,12 +1,12 @@
 - name: Home
   link: /
 - name: About
-  link: /about.html
+  link: /about
 - name: Posts
-  link: /blog.html
+  link: /blog
 - name: Projects
-  link: /projects.html
+  link: /projects
 - name: Songs
-  link: /songs.html
+  link: /songs
 - name: Videos
-  link: /videos.html
+  link: /videos

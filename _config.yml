@@ -2,9 +2,16 @@ baseurl: ""
 repository: p-j-anderson/p-j-anderson.github.io
 
 collections:
-  - songs
-  - videos
-  - project
+  songs:
+    output: true
+    permalink: /songs/:path
+  videos:
+    output: true
+    permalink: /videos/:path
+  projects:
+    output: true
+    permalink: /projects/:path
+
 
 defaults:
   - scope:
@@ -12,6 +19,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "songs"
+    values:
+      layout: "media"
   - scope:
       path: ""
     values:
