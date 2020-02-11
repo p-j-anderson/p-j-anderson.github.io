@@ -1,11 +1,11 @@
 baseurl: ""
 repository: p-j-anderson/p-j-anderson.github.io
 
-featured: 
+featured:
   project: /projects
   video: /videos
-  song: /songs/lost-in-translation
-  post: https://medium.com/@andepaulj/introduction-to-unit-testing-29205240553f
+  song: /songs
+  post: /posts
 
 collections:
   songs:
