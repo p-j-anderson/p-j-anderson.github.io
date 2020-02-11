@@ -41,6 +41,14 @@ body {
   background-color: $site-background;
 }
 
+a {
+  color: $secondary;
+}
+
+a:hover {
+  color: $secondary;
+}
+
 .nav-link {
   color: $light;
 }

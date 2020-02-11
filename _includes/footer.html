@@ -1,36 +1,37 @@
 <footer class="container py-5">
   <div class="row">
     <div class="col-12 col-md">
-      <a class="py-2" href="#"><i class="fab fa-product-hunt fa-lg text-primary"></i></a>
+      <a class="py-2" href="{{ '/about' | relative_url }}"><i class="fab fa-product-hunt fa-lg text-primary"></i></a>
       <small class="d-block mb-3 text-muted">© {{ "now" | date: "%Y" }}</small>
     </div>
     <div class="col-6 col-md">
-      <h5>Features</h5>
+      <h5>Navigation</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Cool stuff</a></li>
-        <li><a class="text-muted" href="#">Random feature</a></li>
-        <li><a class="text-muted" href="#">Team feature</a></li>
-        <li><a class="text-muted" href="#">Stuff for developers</a></li>
-        <li><a class="text-muted" href="#">Another one</a></li>
-        <li><a class="text-muted" href="#">Last time</a></li>
+        <li><a class="text-muted" href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a class="text-muted" href="{{ '/about' | relative_url }}">About</a></li>
+        <li><a class="text-muted" href="{{ '/posts' | relative_url }}">Posts</a></li>
+        <li><a class="text-muted" href="{{ '/projects' | relative_url }}">Projects</a></li>
+        <li><a class="text-muted" href="{{ '/songs' | relative_url }}">Songs</a></li>
+        <li><a class="text-muted" href="{{ '/videos' | relative_url }}">Videos</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
-      <h5>Resources</h5>
+      <h5>Featured</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Resource</a></li>
-        <li><a class="text-muted" href="#">Resource name</a></li>
-        <li><a class="text-muted" href="#">Another resource</a></li>
-        <li><a class="text-muted" href="#">Final resource</a></li>
+        <li><a class="text-muted" href="{{ site.featured.project | relative_url }}">Project</a></li>
+        <li><a class="text-muted" href="{{ site.featured.video | relative_url }}">Video</a></li>
+        <li><a class="text-muted" href="{{ site.featured.song | relative_url }}">Song</a></li>
+        <li><a class="text-muted" href="{{ site.featured.post }}">Post</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
       <h5>Social</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#"><i class="fab fa-linkedin fa-sm"></i> LinkedIn</a></li>
-        <li><a class="text-muted" href="#"><i class="fab fa-instagram fa-sm"></i> Instagram</a></li>
-        <li><a class="text-muted" href="#"><i class="fab fa-twitter fa-sm"></i> Twitter</a></li>
-        <li><a class="text-muted" href="#"><i class="fab fa-medium fa-sm"></i> Medium</a></li>
+        <li><a class="text-muted" href="https://www.linkedin.com/in/paul-j-anderson/"><i class="fab fa-linkedin fa-sm mr-2"></i>LinkedIn</a></li>
+        <li><a class="text-muted" href="https://www.instagram.com/andepaulj/"><i class="fab fa-instagram fa-sm mr-2"></i>Instagram</a></li>
+        <li><a class="text-muted" href="https://twitter.com/andepaulj"><i class="fab fa-twitter fa-sm mr-2"></i>Twitter</a></li>
+        <li><a class="text-muted" href="https://medium.com/@andepaulj"><i class="fab fa-medium fa-sm mr-2"></i>Medium</a></li>
+        <li><a class="text-muted" href="https://www.youtube.com/user/mrandepaul"><i class="fab fa-youtube fa-sm mr-2"></i>YouTube</a></li>
       </ul>
     </div>
   </div>
