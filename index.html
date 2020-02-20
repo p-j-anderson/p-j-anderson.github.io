@@ -7,15 +7,16 @@ layout: base
   <div class="col-md-5 p-lg-5 mx-auto my-5 text-light">
     <h1 class="display-4 font-weight-normal">Paul Anderson</h1>
     <p class="lead font-weight-normal">Solutions engineer, music enthusiast, dog dad.</p>
-    <a class="btn btn-outline-highlight" href="{{ '/about.html' | relative_url }}">More information</a>
+    <a class="btn btn-outline-highlight" href="{{ '/about' | relative_url }}">More information</a>
   </div>
 </div>
 
+<!-- Secondary Focus -->
 <div class="container-fluid">
   <div class="row pl-md-3 d-flex">
-    {% include block.html title="Featured Project" subtitle="Learning keeps you on your toes." color="warning" link=site.featured.project %}
-    {% include block.html title="Featured Video" subtitle="Keeping the creative chops sharp." color="secondary" link=site.featured.video %}
-    {% include block.html title="Featured Song" subtitle="My inner wanna-be composer." color="primary" link=site.featured.song %}
-    {% include block.html title="Featured Post" subtitle="Fingers need workouts too." color="dark" link=site.featured.post %}
+    {% include block.html title="Featured Project" subtitle="Learning keeps you on your toes." color="warning" link=site.featured.project fs="col-xl-3" %}
+    {% include block.html title="Featured Video" subtitle="Keeping the creative chops sharp." color="secondary" link=site.featured.video fs="col-xl-3" %}
+    {% include block.html title="Featured Song" subtitle="My inner wanna-be composer." color="primary" link=site.featured.song fs="col-xl-3" %}
+    {% include block.html title="Featured Post" subtitle="Fingers need workouts too." color="dark" link=site.featured.post image="posts/identifying-problems.jpg" fs="col-xl-3" %}
   </div>
 </div>

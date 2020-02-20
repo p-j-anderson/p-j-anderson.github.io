@@ -7,6 +7,14 @@ featured:
   song: /songs
   post: /posts
 
+social:
+  github: https://github.com/p-j-anderson
+  youtube: https://youtube.com/user/mrandepaul
+  linkedin: https://linkedin.com/p-j-anderson
+  instagram: https://www.instagram.com/andepaulj/
+  twitter: https://twitter.com/andepaulj
+  medium: https://medium.com/@andepaulj
+
 collections:
   songs:
     output: true
