@@ -18,3 +18,4 @@ Followed [step-by-step guide](https://jekyllrb.com/docs/step-by-step/).
 Resources:
 Images - [Unsplash](https://unsplash.com)
 Favicon - [Fonticon](https://gauger.io/fonticon/)
+SSH Keys - [Multiple](https://gist.github.com/jexchan/2351996)

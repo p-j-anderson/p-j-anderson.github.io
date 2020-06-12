@@ -5,6 +5,7 @@
 Gemfile.lock
 _site
 *.gem
+.DS_Store
 
 # Removing production config
 # _config.yml
