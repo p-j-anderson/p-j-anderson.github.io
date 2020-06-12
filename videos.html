@@ -1,4 +1,15 @@
 ---
 title: Videos
 ---
-<p>More coming soon...</p>
+<div class="row pl-md-3">
+  {% for video in site.videos %}
+    {% include block.html
+      title=video.title
+      subtitle=video.subtitle
+      color="light"
+      text="dark"
+      link=video.url
+      accent="secondary-accent"
+    %}
+  {% endfor %}
+</div>
