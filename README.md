@@ -3,6 +3,7 @@
 ## Running Locally
 `bundle exec jekyll serve`
 
+## Pushing Changes
 
 ## Environments
 Jekyll's environment will default to development
