@@ -2,7 +2,7 @@ baseurl: ""
 repository: p-j-anderson/p-j-anderson.github.io
 
 featured:
-  project: /projects
+  project: /projects/shape-configurator
   video: /videos
   song: /songs
   post: /posts
