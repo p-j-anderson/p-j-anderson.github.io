@@ -45,6 +45,11 @@ defaults:
       layout: "media"
   - scope:
       path: ""
+      type: "projects"
+    values:
+      layout: "media"
+  - scope:
+      path: ""
     values:
       layout: "default"
 
