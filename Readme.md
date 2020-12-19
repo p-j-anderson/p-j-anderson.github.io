@@ -5,7 +5,7 @@ Hi, I’m Paul. Solutions engineer, music enthusiast, and dog dad. I’ve held n
 This site is a collection of my projects, interests, and hobbies.
 
 #### Sources & Footnotes
-This template was started using Bootstrap
+This template was started using BootstrapMade
 
 Template Name: MyResume
 Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
