@@ -146,6 +146,25 @@
     });
   }
 
+  // Projects link to portfolio
+  $(document).on('click', '.projects a, .scrollto', function(e) {
+    console.log('projects link found');
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      if (target.length) {
+        e.preventDefault();
+        
+        var scrollto = target.offset().top;
+
+        $('html, body').animate({
+          scrollTop: scrollto
+        }, 1500, 'easeInOutExpo');
+      }
+
+      return false;
+    }
+  });
+
   // Porfolio isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
@@ -155,6 +174,7 @@
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
+      console.log($(this));
 
       portfolioIsotope.isotope({
         filter: $(this).data('filter')
